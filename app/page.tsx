@@ -70,7 +70,7 @@ export default function Home() {
               <Suspense>
                 <App
                   defaultStsConfig={stsConfig}
-                  className="flex-shrink-0 h-auto items-end"
+                  className="flex-shrink-0 h-auto items-end border-2"
                   requiresUserActionToInitialize={isMobile}
                 />
               </Suspense>
